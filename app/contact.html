@@ -1,0 +1,172 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="Croatian Mir Center" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Croatian Mir Center</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/nav.css">
+  <link rel="stylesheet" href="styles/main-slider.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+
+<body>
+  <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+  <div class="wrapper">
+    <section class="navigation">
+      <div class="nav-container">
+        <div class="brand">
+          <a href="index.html">
+            <img class="logo-mir" src="images/cmc-logo.png">
+          </a>
+        </div>
+        <nav>
+          <div class="nav-mobile">
+            <a id="nav-toggle" href="#!">
+              <span></span>
+            </a>
+          </div>
+          <ul class="nav-list">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About Us</a>
+            </li>
+            <li>
+              <a href="pilgrimages.html">Scheduled Pilgrimages</a>
+            </li>
+            <li>
+              <a href="itineraries.html">Sample Itineraries</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact Us</a>
+            </li>
+            <li>
+              <a href="ayuda.html">Ayuda en espaÑol</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+
+    <div class=" title-style">
+      <h3 class="title">Contact us</h3>
+    </div>
+    <div class="dark-background">
+      <h2 class="subtitle text-centering">We love to hear from you</h2>
+
+      <section>
+        <div class="row">
+
+          <div class="text">
+            <p>Our address is:</p>
+            <p>
+              Croatian Mir Center
+              <br /> 4700 Sheridan Street, Suite J
+              <br /> Hollywood, FL 33021
+              <br />
+            </p>
+            <p>To get in touch with us,
+              <br /> call us at 1-800-220-7729
+              <br /> or send us a message using our form.
+              <br />
+              <a href="mailto:croatia@mircenter.com">croatia@mircenter.com</a>
+            </p>
+          </div>
+
+
+
+          <form action="form_process.php" method="post" name="contact_form" id="contactForm" novalidate="">
+            <div class="form-group">
+              <input name="name" type="text" class="form-control" placeholder="Name and last name *" id="name" required="" data-validation-required-message="Please enter your name.">
+              <p></p>
+            </div>
+            <div>
+              <div class="form-group">
+                <input name="sender" type="email" class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address.">
+                <p></p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <div class="form-group">
+                  <input name="Phone" class="form-control" placeholder="Phone *" id="phone" required="" data-validation-required-message="Please enter a message."></input>
+                  <p></p>
+                </div>
+                <div class="form-group">
+                  <input name="City" class="form-control" placeholder="City of residence *" id="city" required="" data-validation-required-message="Please enter a message."></input>
+                  <p></p>
+                </div>
+                <div class="form-group">
+                  <textarea name="message" class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
+                  <p></p>
+                </div>
+              </div>
+              <div></div>
+            </div>
+            <div class="row text-center">
+              <div id="success"></div>
+              <button name="submit" type="submit" class="btn">Send Message</button>
+            </div>
+          </form>
+
+        </div>
+      </section>
+    </div>
+    <div class="push"></div>
+  </div>
+  <footer class="footer">© Copyright 2018 Croatian Mir</footer>
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function (b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l;
+      b[l] || (b[l] =
+        function () {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+      b[l].l = +new Date;
+      e = o.createElement(i);
+      r = o.getElementsByTagName(i)[0];
+      e.src = 'https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-112646323-1');
+    ga('send', 'pageview');
+
+  </script>
+
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>
