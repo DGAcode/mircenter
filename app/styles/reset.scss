@@ -19,12 +19,12 @@ body {
   font-size: 62.5%;
 }
 
- ::-moz-selection {
+::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
- ::selection {
+::selection {
   background: #b3d4fc;
   text-shadow: none;
 }
@@ -197,4 +197,13 @@ a:hover {
 
 a:active {
   color: #624D38;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.border {
+  border-radius: 1em;
 }
